@@ -1,6 +1,6 @@
 {
   "name": "b",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "module": "./index.mjs",
   "dependencies": {
     "c": "workspace:^"

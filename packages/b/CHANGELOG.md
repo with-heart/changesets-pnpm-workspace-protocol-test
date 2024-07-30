@@ -1,5 +1,11 @@
 # b
 
+## 1.0.0
+
+### Major Changes
+
+- First major release of b!
+
 ## 0.0.1
 
 ### Patch Changes
