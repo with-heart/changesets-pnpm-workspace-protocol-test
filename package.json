@@ -16,9 +16,5 @@
   ],
   "dependencies": {
     "@changesets/cli": "^2.27.7"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   }
 }
