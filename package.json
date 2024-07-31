@@ -1,5 +1,6 @@
 {
   "name": "changesets-pnpm-workspaces-test",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +16,9 @@
   ],
   "dependencies": {
     "@changesets/cli": "^2.27.7"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
