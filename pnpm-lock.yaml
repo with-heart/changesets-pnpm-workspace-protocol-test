@@ -33,7 +33,13 @@ importers:
         specifier: workspace:*
         version: link:../d
 
-  packages/d: {}
+  packages/d:
+    dependencies:
+      '@with-heart/test-pkg-e':
+        specifier: workspace:*
+        version: link:../e
+
+  packages/e: {}
 
 packages:
 
