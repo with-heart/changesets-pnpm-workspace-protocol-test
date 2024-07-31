@@ -1,5 +1,5 @@
 {
-  "name": "c",
+  "name": "@with-heart/test-pkg-c",
   "version": "1.0.0",
   "module": "./index.mjs"
 }
