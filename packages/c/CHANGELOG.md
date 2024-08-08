@@ -1,5 +1,12 @@
 # c
 
+## 3.0.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @with-heart/test-pkg-d@3.0.0
+
 ## 2.0.0
 
 ### Minor Changes

@@ -1,5 +1,12 @@
 # a
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @with-heart/test-pkg-b@1.1.2
+
 ## 0.0.4
 
 ### Patch Changes
