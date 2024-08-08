@@ -1,5 +1,12 @@
 # b
 
+## 1.1.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @with-heart/test-pkg-c@3.0.0
+
 ## 1.1.1
 
 ### Patch Changes
