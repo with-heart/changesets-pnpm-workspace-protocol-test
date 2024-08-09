@@ -1,5 +1,16 @@
 # a
 
+## 1.0.0
+
+### Major Changes
+
+- [#9](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/pull/9) [`1f44a5b`](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/commit/1f44a5b63aff2ce03d02c080fa398d982beffc10) Thanks [@with-heart](https://github.com/with-heart)! - bump all packages because I fucked up npm
+
+### Patch Changes
+
+- Updated dependencies [[`1f44a5b`](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/commit/1f44a5b63aff2ce03d02c080fa398d982beffc10)]:
+  - @with-heart/test-pkg-b@2.0.0
+
 ## 0.0.5
 
 ### Patch Changes
