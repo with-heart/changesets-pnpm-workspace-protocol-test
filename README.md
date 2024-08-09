@@ -36,68 +36,74 @@ importers:
   .:
     dependencies:
       '@with-heart/pkg-a':
-        specifier: ^1.0.0
-        version: 1.0.0(@with-heart/pkg-d@1.0.0(@with-heart/pkg-e@1.0.0))(@with-heart/pkg-e@1.0.0)
+        specifier: ^1.0.2
+        version: 1.0.2(@with-heart/pkg-d@1.0.2(@with-heart/pkg-e@1.0.2))(@with-heart/pkg-e@1.0.2)
+      '@with-heart/pkg-d':
+        specifier: ^1.0.2
+        version: 1.0.2(@with-heart/pkg-e@1.0.2)
+      '@with-heart/pkg-e':
+        specifier: ^1.0.2
+        version: 1.0.2
 
 packages:
-  '@with-heart/pkg-a@1.0.0':
+  '@with-heart/pkg-a@1.0.2':
     resolution:
       {
-        integrity: sha512-6aaHG4zUWjUaHw0ssh5jMijjs1P3sGqXU2U/LP6NWSc/QWOBG7hxjgq8KX0eh2LypV2WmkebWByfrcmuC4kxcQ==,
+        integrity: sha512-mKVo/XOPI/bwN/TDd1pY/qERYb1dc4ub6vWRbceKDpdsvLLL5jETZJZqafXaXSE+2TPh4cdoMcmqS+e3ZCc53w==,
       }
 
-  '@with-heart/pkg-b@1.0.0':
+  '@with-heart/pkg-b@1.0.2':
     resolution:
       {
-        integrity: sha512-aY5X2+VnglmGXYUqNXL7JRy5c87PsqkOS1diRYgwh8m0CBmc0cXkkgrMRHkAMsL4vSS1EksxYaQuzWSVaoNw1A==,
+        integrity: sha512-eoY5xgQtKUwarW8CSFORHT+YBVfmhl6vx+9zYYVj76pGLsUu7a6pNbZ9UQVTVv4s/3EOyTQpn192FhwHFYvqqQ==,
       }
 
-  '@with-heart/pkg-c@1.0.0':
+  '@with-heart/pkg-c@1.0.2':
     resolution:
       {
-        integrity: sha512-gk5YMw2moEg6+R3x+JIZv4K71sQBbkZS+LrGxFPmluRIBjkujlffAmk4ydWIiftVpkSZlK9fnF4SZmKQCEIDHg==,
-      }
-    peerDependencies:
-      '@with-heart/pkg-d': 1.0.0
-      '@with-heart/pkg-e': ^1.0.0
-
-  '@with-heart/pkg-d@1.0.0':
-    resolution:
-      {
-        integrity: sha512-G1E8LX5Qs96ywRFSmtC5SDEJus/elOxuT8LQx6kPiFj1hH418EA8DCAvtWgX0SeynWzMWKKuQzIQTfDIAhvrPA==,
+        integrity: sha512-kl6JSo72K2JBkhOnjLTgPHKWlNGO223Yre5fBpF/euxvK5QvQrZfi9LOo5FcZxLqPi3AOWA9xo+yAH4vSbUyiw==,
       }
     peerDependencies:
-      '@with-heart/pkg-e': 1.0.0
+      '@with-heart/pkg-d': 1.0.2
+      '@with-heart/pkg-e': ^1.0.2
 
-  '@with-heart/pkg-e@1.0.0':
+  '@with-heart/pkg-d@1.0.2':
     resolution:
       {
-        integrity: sha512-gEm1FFs47ODH90TMN0dCb/wSasAo6CLHcE3Uvz/lLIuquwGjIiS6NB51nAJ0vG3lJs73xYJmMiTiOSSBf/7vtA==,
+        integrity: sha512-en0PT9mwQtp3sFLovrwiS+86Jr5zaK91JT9Ngxc1ajWqVSN9koZ7Scxg4BR7mwAQHqTRO0K4QFqI4LNPf/pjUA==,
+      }
+    peerDependencies:
+      '@with-heart/pkg-e': 1.0.2
+
+  '@with-heart/pkg-e@1.0.2':
+    resolution:
+      {
+        integrity: sha512-2WKWyAgUAzRQo+xCerM9Nl17k36Sacb/KQnD3eZY/MYSeGAFc23CHk7a341ILeeFAki9MzMSEjIL1L0nAluc9Q==,
       }
 
 snapshots:
-  '@with-heart/pkg-a@1.0.0(@with-heart/pkg-d@1.0.0(@with-heart/pkg-e@1.0.0))(@with-heart/pkg-e@1.0.0)':
+  '@with-heart/pkg-a@1.0.2(@with-heart/pkg-d@1.0.2(@with-heart/pkg-e@1.0.2))(@with-heart/pkg-e@1.0.2)':
     dependencies:
-      '@with-heart/pkg-b': 1.0.0(@with-heart/pkg-d@1.0.0(@with-heart/pkg-e@1.0.0))(@with-heart/pkg-e@1.0.0)
+      '@with-heart/pkg-b': 1.0.2(@with-heart/pkg-d@1.0.2(@with-heart/pkg-e@1.0.2))(@with-heart/pkg-e@1.0.2)
     transitivePeerDependencies:
       - '@with-heart/pkg-d'
       - '@with-heart/pkg-e'
 
-  '@with-heart/pkg-b@1.0.0(@with-heart/pkg-d@1.0.0(@with-heart/pkg-e@1.0.0))(@with-heart/pkg-e@1.0.0)':
+  '@with-heart/pkg-b@1.0.2(@with-heart/pkg-d@1.0.2(@with-heart/pkg-e@1.0.2))(@with-heart/pkg-e@1.0.2)':
     dependencies:
-      '@with-heart/pkg-c': 1.0.0(@with-heart/pkg-d@1.0.0(@with-heart/pkg-e@1.0.0))(@with-heart/pkg-e@1.0.0)
+      '@with-heart/pkg-c': 1.0.2(@with-heart/pkg-d@1.0.2(@with-heart/pkg-e@1.0.2))(@with-heart/pkg-e@1.0.2)
     transitivePeerDependencies:
       - '@with-heart/pkg-d'
       - '@with-heart/pkg-e'
 
-  '@with-heart/pkg-c@1.0.0(@with-heart/pkg-d@1.0.0(@with-heart/pkg-e@1.0.0))(@with-heart/pkg-e@1.0.0)':
+  '@with-heart/pkg-c@1.0.2(@with-heart/pkg-d@1.0.2(@with-heart/pkg-e@1.0.2))(@with-heart/pkg-e@1.0.2)':
     dependencies:
-      '@with-heart/pkg-d': 1.0.0(@with-heart/pkg-e@1.0.0)
-      '@with-heart/pkg-e': 1.0.0
+      '@with-heart/pkg-d': 1.0.2(@with-heart/pkg-e@1.0.2)
+      '@with-heart/pkg-e': 1.0.2
 
-  '@with-heart/pkg-d@1.0.0(@with-heart/pkg-e@1.0.0)':
+  '@with-heart/pkg-d@1.0.2(@with-heart/pkg-e@1.0.2)':
     dependencies:
-      '@with-heart/pkg-e': 1.0.0
+      '@with-heart/pkg-e': 1.0.2
 
-  '@with-heart/pkg-e@1.0.0': {}
+  '@with-heart/pkg-e@1.0.2': {}
 ```
