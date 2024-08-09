@@ -1,6 +1,6 @@
 {
   "name": "@with-heart/test-pkg-a",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "module": "./index.mjs",
   "dependencies": {
     "@with-heart/test-pkg-b": "workspace:^"
