@@ -17,25 +17,28 @@ importers:
 
   packages/a:
     dependencies:
-      '@with-heart/test-pkg-b':
+      '@with-heart/pkg-b':
         specifier: workspace:^
         version: link:../b
 
   packages/b:
     dependencies:
-      '@with-heart/test-pkg-c':
+      '@with-heart/pkg-c':
         specifier: workspace:^
         version: link:../c
 
   packages/c:
     dependencies:
-      '@with-heart/test-pkg-d':
+      '@with-heart/pkg-d':
         specifier: workspace:*
         version: link:../d
+      '@with-heart/pkg-e':
+        specifier: workspace:^
+        version: link:../e
 
   packages/d:
     dependencies:
-      '@with-heart/test-pkg-e':
+      '@with-heart/pkg-e':
         specifier: workspace:*
         version: link:../e
 

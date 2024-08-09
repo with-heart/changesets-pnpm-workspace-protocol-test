@@ -1,8 +1,9 @@
 {
-  "name": "@with-heart/test-pkg-c",
-  "version": "4.0.0",
+  "name": "@with-heart/pkg-c",
+  "version": "0.0.0",
   "module": "./index.mjs",
   "peerDependencies": {
-    "@with-heart/test-pkg-d": "workspace:*"
+    "@with-heart/pkg-d": "workspace:*",
+    "@with-heart/pkg-e": "workspace:^"
   }
 }

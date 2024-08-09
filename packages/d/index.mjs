@@ -1,5 +1,5 @@
-import { e } from "@with-heart/test-pkg-e";
+import { e } from '@with-heart/pkg-e'
 
 export function d(input) {
-  e(input);
+  e(input)
 }

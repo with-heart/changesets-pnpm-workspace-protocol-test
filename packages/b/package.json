@@ -1,8 +1,8 @@
 {
-  "name": "@with-heart/test-pkg-b",
-  "version": "2.0.0",
+  "name": "@with-heart/pkg-b",
+  "version": "0.0.0",
   "module": "./index.mjs",
   "dependencies": {
-    "@with-heart/test-pkg-c": "workspace:^"
+    "@with-heart/pkg-c": "workspace:^"
   }
 }
