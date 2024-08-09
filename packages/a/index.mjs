@@ -1,3 +1,3 @@
-import { b } from "b";
+import { b } from '@with-heart/pkg-b'
 
-b("hello");
+b('hello')
