@@ -42,7 +42,13 @@ importers:
         specifier: workspace:*
         version: link:../e
 
-  packages/e: {}
+  packages/e:
+    dependencies:
+      '@with-heart/private-pkg':
+        specifier: workspace:*
+        version: link:../private
+
+  packages/private: {}
 
 packages:
 
