@@ -43,7 +43,7 @@ importers:
         version: link:../e
 
   packages/e:
-    dependencies:
+    devDependencies:
       '@with-heart/private-pkg':
         specifier: workspace:*
         version: link:../private
