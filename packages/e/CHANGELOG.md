@@ -1,5 +1,11 @@
 # c
 
+## 1.0.2
+
+### Patch Changes
+
+- [#17](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/pull/17) [`8e6497c`](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/commit/8e6497c35e762df80ae6546738fd286d046d9e16) Thanks [@with-heart](https://github.com/with-heart)! - changed @with-heart/private-pkg to dev dependency
+
 ## 1.0.1
 
 ### Patch Changes

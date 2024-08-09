@@ -1,5 +1,12 @@
 # c
 
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies [[`8e6497c`](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/commit/8e6497c35e762df80ae6546738fd286d046d9e16)]:
+  - @with-heart/pkg-e@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
