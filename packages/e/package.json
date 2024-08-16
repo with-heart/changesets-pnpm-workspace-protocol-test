@@ -1,6 +1,6 @@
 {
   "name": "@with-heart/pkg-e",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "module": "./index.mjs",
   "devDependencies": {
     "@with-heart/private-pkg": "workspace:*"

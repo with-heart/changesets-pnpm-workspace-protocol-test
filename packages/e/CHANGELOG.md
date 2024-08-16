@@ -1,5 +1,11 @@
 # c
 
+## 3.0.0
+
+### Major Changes
+
+- [#21](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/pull/21) [`d667df0`](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/commit/d667df0558dde2204ed8902ec6d7653376120357) Thanks [@with-heart](https://github.com/with-heart)! - bump!
+
 ## 2.0.0
 
 ### Major Changes
