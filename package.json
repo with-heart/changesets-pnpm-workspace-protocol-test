@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "version": "changeset version"
+    "version": "changeset version",
+    "release": "changeset tag && pnpm -r publish --access=public"
   },
   "keywords": [],
   "author": "",
