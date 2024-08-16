@@ -1,5 +1,11 @@
 # c
 
+## 2.0.0
+
+### Major Changes
+
+- [#19](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/pull/19) [`f3b50e0`](https://github.com/with-heart/changesets-pnpm-workspace-protocol-test/commit/f3b50e0138fb3d01d6c3fae1b79d1d8bc7b32d9a) Thanks [@with-heart](https://github.com/with-heart)! - publishing @with-heart/pkg-e@2.0.0
+
 ## 1.0.2
 
 ### Patch Changes

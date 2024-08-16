@@ -1,5 +1,12 @@
 # a
 
+## 1.0.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @with-heart/pkg-b@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes

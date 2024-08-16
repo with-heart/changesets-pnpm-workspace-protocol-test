@@ -1,6 +1,6 @@
 {
   "name": "@with-heart/pkg-d",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "module": "./index.mjs",
   "peerDependencies": {
     "@with-heart/pkg-e": "workspace:*"
