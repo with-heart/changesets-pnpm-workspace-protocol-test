@@ -39,7 +39,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: pnpm changeset tag && pnpm -r publish --access=public
+          publish: 'pnpm changeset tag && pnpm -r publish --access=public'
           version: pnpm run version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
