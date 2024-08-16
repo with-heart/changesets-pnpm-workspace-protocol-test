@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "version": "changeset version",
-    "release": "changeset tag && pnpm -r publish --access=public"
+    "release": "pnpm -r publish --access=public && changeset tag"
   },
   "keywords": [],
   "author": "",
